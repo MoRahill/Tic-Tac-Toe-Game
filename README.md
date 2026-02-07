@@ -1,3 +1,6 @@
+Name: Mohammed Rahil Ahmed
+Student ID: S24108924
+
 The game follows the classic 3×3 Tic‑Tac‑Toe rules. Two players, X and O, take turns marking empty squares on the board. The objective is to place three identical symbols in a row horizontally, vertically, or diagonally. The game ends when a player wins or when the board is full, resulting in a tie.
 
 Game Logic
@@ -21,11 +24,8 @@ A new board state is generated after applying a move. The original board is neve
 
 Winner Detection
 The game checks:
-
 All rows
-
 All columns
-
 Both diagonals
 
 If any contain the same non‑empty symbol three times, that symbol is declared the winner.
@@ -37,13 +37,10 @@ A player has won
 
 No empty cells remain
 
-Utility Values
+Utility Values:
 Utility values are used by the AI:
-
 1 if X wins
-
 -1 if O wins
-
 0 for a tie
 
 AI Logic: Minimax and Alpha‑Beta Pruning
@@ -51,7 +48,6 @@ Minimax Algorithm
 The AI uses the Minimax algorithm to evaluate all possible future game states.
 
 X is the maximizing player
-
 O is the minimizing player
 
 The algorithm recursively explores every possible move until reaching a terminal state
@@ -78,3 +74,7 @@ alpha >= beta in the maximizing function
 beta <= alpha in the minimizing function
 
 This reduces the number of states explored and speeds up decision‑making without changing the final result.
+
+<img width="745" height="539" alt="image" src="https://github.com/user-attachments/assets/81b8c1ae-dc0d-4190-bd8f-d7ce0e901391" />
+
+
